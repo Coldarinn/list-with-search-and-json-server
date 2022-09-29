@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { FC, useEffect } from "react";
+import { useAppDispatch, useAppSelector } from "./hooks/redux";
+import { AppRouter } from "./components/AppRouter";
+import { Loader } from "./components/Loader";
+import { Header } from "./components/Header";
+import { getUser } from "./store/reducers/actionCreators";
+import "./styles.scss";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App: FC = () => {
+	const { isLoading, isAuth } = useAppSelector((state) => state.authReducer);
+	const dispatch = useAppDispatch();
+
+	useEffect(() => {
+		const login = localStorage.getItem("userLogin") || '';
+		const password = localStorage.getItem("userPassword") || '';
+		dispatch(getUser(login, password));
+	}, []);
+
+	return (
+		<div className="app">
+			{isLoading ? <Loader /> : (
+				<>
+					{isAuth && <Header />}
+					<AppRouter />
+				</>
+			)}
+		</div>
+	);
+};
 
 export default App;

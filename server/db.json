@@ -1,0 +1,160 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"login": "kirill",
+			"password": "123123"
+		}
+	],
+	"contacts": [
+		{
+			"id": 1,
+			"contacts": [
+				{
+					"id": 1,
+					"name": "FirstName",
+					"lastName": "LastName 1",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 2,
+					"name": "FirstName",
+					"lastName": "LastName 2",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 3,
+					"name": "FirstName",
+					"lastName": "LastName 3",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 4,
+					"name": "FirstName",
+					"lastName": "LastName 4",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 5,
+					"name": "FirstName",
+					"lastName": "LastName 5",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 6,
+					"name": "FirstName",
+					"lastName": "LastName 6",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 7,
+					"name": "FirstName",
+					"lastName": "LastName 7",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 8,
+					"name": "FirstName",
+					"lastName": "LastName 8",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 9,
+					"name": "FirstName",
+					"lastName": "LastName 9",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 10,
+					"name": "FirstName",
+					"lastName": "LastName 10",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 11,
+					"name": "FirstName",
+					"lastName": "LastName 11",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 12,
+					"name": "FirstName",
+					"lastName": "LastName 12",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 13,
+					"name": "FirstName",
+					"lastName": "LastName 13",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 14,
+					"name": "FirstName",
+					"lastName": "LastName 14",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 15,
+					"name": "FirstName",
+					"lastName": "LastName 15",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 16,
+					"name": "FirstName",
+					"lastName": "LastName 16",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 17,
+					"name": "FirstName",
+					"lastName": "LastName 17",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 18,
+					"name": "FirstName",
+					"lastName": "LastName 18",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 19,
+					"name": "FirstName",
+					"lastName": "LastName 19",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 20,
+					"name": "FirstName",
+					"lastName": "LastName 20",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 21,
+					"name": "FirstName",
+					"lastName": "LastName 21",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 22,
+					"name": "FirstName",
+					"lastName": "LastName 22",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 23,
+					"name": "FirstName",
+					"lastName": "LastName 23",
+					"email": "firstnamelastname@mail.ru"
+				},
+				{
+					"id": 24,
+					"name": "FirstName",
+					"lastName": "LastName 24",
+					"email": "firstnamelastname@mail.ru"
+				}
+			]
+		}
+	]
+}
